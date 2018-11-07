@@ -1,0 +1,9 @@
+src/slam_gmapping
+src/turtlebot
+src/turtlebot_interactions
+src/turtlebot_simulator
+build/
+devel/
+.catkin_workspace
+*.swp
+*.swo
