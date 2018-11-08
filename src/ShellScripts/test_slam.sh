@@ -1,6 +1,8 @@
 #!/bin/sh
 #export TURTLEBOT_3D_SENSOR=kinect
-xterm -e "roslaunch turtlebot_gazebo turtlebot_world.launch world_file:=/home/nvidia/catkin_ws/src/World/SimpleWorld/SimpleWorld.world" &
+#xterm -e "roslaunch turtlebot_gazebo turtlebot_world.launch" &
+#xterm -e "roslaunch turtlebot_gazebo turtlebot_world.launch world_file:=/home/nvidia/catkin_ws/src/World/SimpleWorld/SimpleWorld.world" &
+xterm -e "roslaunch turtlebot_gazebo turtlebot_world.launch world_file:=/home/nvidia/catkin_ws/src/World/Berkach/Berkach.world" &
 sleep 5
 xterm -e "rosrun gmapping slam_gmapping" &
 sleep 5
